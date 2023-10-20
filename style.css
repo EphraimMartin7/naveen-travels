@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+font-family: "poppins";
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-brand img{
+width: auto;
+height: 60px;
+}
+.bg{
+    background-image: url(img/bgm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+.tex h1{
+    font-size: 70px;
+padding-top: 350px;
+    font-weight: 700;
+}
+.sh{
+    background-color: rgb(223, 40, 40);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.card{
+    display: inline-block;
+    width: 280px;
+   margin: 20px;
+}
+.card button{
+    background-color: rgb(223, 40, 40);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+.mmg{
+    height: 200px;
+}
+.colm{
+    background-color: rgba(240, 240, 240, 0.541);
+}
+.msg{
+    height: 225px;
+}
+.crd button{
+    background-color: rgb(223, 40, 40);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+.bg2{
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+.nav-link{
+    color: black;
+    font-weight: 500;
+    
+}
+.nav-link:hover {
+   border-bottom: 2px solid red;
+ 
+}
